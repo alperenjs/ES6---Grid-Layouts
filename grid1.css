@@ -1,0 +1,33 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box !important;
+}
+body {
+  padding: 1em;
+  font-family: "Garamond", serif;
+}
+
+article {
+  column-width: 16em;
+  column-gap: 2em;
+}
+section {
+  display: inline-block;
+  margin: 0.25rem;
+  padding: 1rem;
+  width: 100%;
+  background: #efefef;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+body {
+  line-height: 1.25;
+}
+
+p {
+  text-align: left;
+}
